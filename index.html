@@ -2,88 +2,86 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="Anna Antony" />
-
-    <title>CC Portfolio Website</title>
-
-    <!-- CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="main.css" type="text/css" rel="stylesheet" />
 </head>
 
-<body>
-    <!-- Header -->
-    <div class="container">
-        <header>
-            <div class="row justify-content-between">
-                <div class="col-md-2">
-                    <a href="index.html"><img class="img-fluid" src="img/logo-new.png" alt="Logo" /></a>
-                </div>
-                <div class="col-md-4">
-                    <h1>Anna Antony</h1>
-                    <h5>IMD Student</h5>
-                </div>
-                <div class="col-md-12">
-                    <hr />
-                </div>
+<body class="hero-image">
+    <section class="one">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Start</a>
+                </li>
+                <li><a href="pages/ueber-mich.html">Über mich</a></li>
+                <li><a href="pages/lunarlander.html">Das Spiel</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-text">
+            <h1>Ich bin Anna</h1>
+            <h2>und das ist mein LunarLander!</h2>
+        </div>
+    </section>
+    <!-- Erster Abschnitt: Spielstart-->
+    <section>
+        <div class="row rowheight">
+            <div class="column">
+                <img src="img/spielstart.png" class="right" />
             </div>
-        </header>
-
-        <!-- Hero image ---->
-        <div class="col-lg-12 no-padding">
-            <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
-                <div class="carousel-inner" role="listbox">
-                    <img class="d-block img-fluid" src="img/notebook-1280538_1920.jpg" alt="" />
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-4">
-                    <h2>Projekte</h2>
-                </div>
-            </div>
-
-            <!-- Three items -->
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4 text-center">
-                    <div class="h-100">
-                        <a href="pages/lunarlander.html"><img class="card-img-top" src="img/win.png" alt="" /></a>
-                        <h4>
-                            LunarLander
-                        </h4>
-                        <p class="card-text">
-                            Bringe die Kapsel sicher auf den Boden!
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4 text-center">
-                    <div class="h-100">
-                        <a href="#"><img class="card-img-top" src="img/disco.jpg" alt="" /></a>
-                        <h4>
-                            Disco Pong
-                        </h4>
-                        <p class="card-text">
-                            Fühlst du dich auch Disco? Frühjahr 2020!
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4 text-center">
-                    <div class="h-100">
-                        <a href="#"><img class="card-img-top" src="img/tba.jpg" alt="" /></a>
-                        <h4>
-                            Lorem ipsum
-                        </h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur</p>
-                    </div>
-                </div>
+            <div class="column-r">
+                <h3>Ready, set, go!</h3>
+                <p>
+                    Durch einen Klick auf den Code oder auf den Canvas startest du das Spiel. Die Kapsel steuerst du mit den Pfeiltasten.
+                </p>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- Zweiter Abschnitt: Spielverlauf-->
+    <section>
+        <div class="row rowheight">
+            <div class="column">
+                <img src="img/spielverlauf.png" class="right" />
+            </div>
+            <div class="column-r">
+                <h3>Bis zur Unendlichkeit und noch viel weiter!</h3>
+                <p>
+                    Versuche die Kapsel sicher am Boden zum Landen zu bringen. Eine zu hohe Geschwindigkeit führt zu einer misslungenen Landung. Außerdem solltest du darauf achten, die Kapsel nicht zu weit nach links oder rechts zu steuern!
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Dritter Abschnitt: Gewonnen-->
+    <section>
+        <div class="row rowheight">
+            <div class="column">
+                <img src="img/win.png" class="right" />
+            </div>
+            <div class="column-r">
+                <h3>
+                    Ein kleiner Schritt für dich, aber ein großer Schritt für die Menschheit!
+                </h3>
+                <p>
+                    Wenn du die Rakete vorsichtig steuerst, sollte das easy für dich sein!
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Vierter Abschnitt: Verloren -->
+    <section>
+        <div class="row rowheight">
+            <div class="column">
+                <img src="img/lose.png" class="right" />
+            </div>
+            <div class="column-r">
+                <h3>Ha Ha!</h3>
+                <p>
+                    Versuchs mal mit Gemütlichkeit!
+                </p>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
